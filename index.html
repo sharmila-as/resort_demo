@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Hill Resorts — Experience Nature, Comfort & Luxury</title>
+  <meta name="description" content="Premium hill station resorts at Ooty, Kodaikanal, Yercaud and Cochin. Luxury stays surrounded by nature." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-logo">
+    <div class="nav-logo-emblem"><i class="fas fa-leaf"></i></div>
+    <div class="nav-logo-text">
+      <strong>Luxury Hill Resorts</strong>
+      <span>Nature · Comfort · Luxury</span>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="resorts.html">Resorts</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="nav-enquire">Enquire Now</a>
+  </div>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mob-close" id="mobClose"><i class="fas fa-times"></i></div>
+  <a href="index.html">Home</a>
+  <a href="resorts.html">Resorts</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-vignette"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span>Discover Serenity</span>
+    </div>
+    <h1 class="hero-title">
+      Luxury Hill
+      <em>Resorts</em>
+    </h1>
+    <p class="hero-sub">Experience Nature, Comfort and Luxury — across four breathtaking hill destinations.</p>
+    <div class="hero-cta-row">
+      <button class="btn btn-gold" onclick="waEnquire('General Enquiry')">
+        <i class="fab fa-whatsapp"></i> Enquire Now
+      </button>
+      <a href="resorts.html" class="btn btn-outline">
+        <i class="fas fa-map-marker-alt"></i> Our Resorts
+      </a>
+    </div>
+  </div>
+
+  <!-- <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-bar"></div>
+  </div> -->
+
+  <!-- Location strip -->
+  <div class="hero-locations">
+    <a href="resorts.html#ooty" class="hloc">
+      <div class="hloc-icon"><i class="fas fa-mountain"></i></div>
+      <div><strong>Ooty</strong><span>The Queen of Hills</span></div>
+    </a>
+    <a href="resorts.html#kodaikanal" class="hloc">
+      <div class="hloc-icon"><i class="fas fa-cloud"></i></div>
+      <div><strong>Kodaikanal</strong><span>Princess of Hills</span></div>
+    </a>
+    <a href="resorts.html#yercaud" class="hloc">
+      <div class="hloc-icon"><i class="fas fa-tree"></i></div>
+      <div><strong>Yercaud</strong><span>Jewel of the South</span></div>
+    </a>
+    <a href="resorts.html#cochin" class="hloc">
+      <div class="hloc-icon"><i class="fas fa-water"></i></div>
+      <div><strong>Cochin</strong><span>Queen of Arabian Sea</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- ===== INTRO / ABOUT PREVIEW ===== -->
+<section class="intro-section section-pad">
+  <div class="intro-grid">
+
+    <div class="intro-image-wrap reveal-left">
+      <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=80" alt="Luxury Resort Stay" loading="lazy" />
+      <div class="intro-img-overlay"></div>
+      <div class="intro-badge">
+        <strong>4</strong>
+        <span>Exclusive Destinations</span>
+      </div>
+    </div>
+
+    <div class="reveal-right">
+      <div class="section-label"><i class="fas fa-feather"></i> Our Story</div>
+      <h2 class="section-title">Where the <em>Mountains</em> Meet Luxury</h2>
+      <div class="gold-rule"></div>
+      <p class="section-desc">
+        Nestled amidst the lush hills of South India, our resorts offer an unmatched escape from the ordinary.
+        We blend the raw beauty of nature with thoughtful luxury — crafting stays that refresh the soul, delight
+        the senses, and linger in memory long after you leave.
+      </p>
+      <p class="section-desc" style="margin-top:16px;">
+        From the misty peaks of Ooty to the serene backwaters of Cochin, every property is designed to let
+        nature in while keeping every comfort within reach.
+      </p>
+
+      <div class="intro-feats stagger">
+        <div class="intro-feat reveal">
+          <div class="feat-icon-box"><i class="fas fa-bed"></i></div>
+          <div>
+            <h4>Luxury Rooms</h4>
+            <p>Spacious, tastefully furnished rooms with breathtaking views.</p>
+          </div>
+        </div>
+        <div class="intro-feat reveal">
+          <div class="feat-icon-box"><i class="fas fa-utensils"></i></div>
+          <div>
+            <h4>Fine Dining</h4>
+            <p>Curated menus celebrating local flavours and global cuisine.</p>
+          </div>
+        </div>
+        <div class="intro-feat reveal">
+          <div class="feat-icon-box"><i class="fas fa-hiking"></i></div>
+          <div>
+            <h4>Nature Trails</h4>
+            <p>Guided walks through forests, estates and scenic pathways.</p>
+          </div>
+        </div>
+        <div class="intro-feat reveal">
+          <div class="feat-icon-box"><i class="fas fa-spa"></i></div>
+          <div>
+            <h4>Spa & Wellness</h4>
+            <p>Rejuvenating treatments inspired by ancient Ayurvedic traditions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:38px;">
+        <a href="about.html" class="btn btn-forest">
+          <i class="fas fa-arrow-right"></i> Discover Our Story
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== RESORT LOCATIONS ===== -->
+<section class="resorts-section section-pad">
+  <div class="section-header center">
+    <div class="section-label"><i class="fas fa-map-marked-alt"></i> Destinations</div>
+    <h2 class="section-title">Our <em>Four</em> Retreats</h2>
+    <div class="gold-rule center"></div>
+    <p class="section-desc">
+      Each destination is a unique chapter in your journey — choose your escape and let us take care of the rest.
+    </p>
+  </div>
+
+  <div class="resorts-grid stagger">
+
+    <!-- Ooty -->
+    <div class="resort-card reveal" data-resort="ooty">
+      <div class="card-bg" style="background-image:url('https://images.unsplash.com/photo-1598896174991-2ec1c5da65f1?w=800&q=80')"></div>
+      <div class="card-overlay"></div>
+      <div class="card-tl">Ooty • Tamil Nadu</div>
+      <div class="card-body">
+        <div class="card-tag">Hill Station</div>
+        <h3 class="card-title">Ooty Resort</h3>
+        <div class="card-loc"><i class="fas fa-map-marker-alt"></i> The Nilgiris, 2240m</div>
+        <p class="card-desc">A tranquil hideaway in the Nilgiri mountains, surrounded by tea plantations and eucalyptus forests. Wake up to cloud-kissed mornings.</p>
+        <a href="resorts.html#ooty" class="btn btn-gold btn-sm">View Details</a>
+      </div>
+    </div>
+
+    <!-- Kodaikanal -->
+    <div class="resort-card reveal" data-resort="kodaikanal">
+      <div class="card-bg" style="background-image:url('https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=800&q=80')"></div>
+      <div class="card-overlay"></div>
+      <div class="card-tl">Kodaikanal • Tamil Nadu</div>
+      <div class="card-body">
+        <div class="card-tag">Lake Retreat</div>
+        <h3 class="card-title">Kodaikanal Resort</h3>
+        <div class="card-loc"><i class="fas fa-map-marker-alt"></i> Palani Hills, 2133m</div>
+        <p class="card-desc">Perched above the princess of hill stations, our resort offers stunning lake views, pine-scented air and ultimate serenity.</p>
+        <a href="resorts.html#kodaikanal" class="btn btn-gold btn-sm">View Details</a>
+      </div>
+    </div>
+
+    <!-- Yercaud -->
+    <div class="resort-card reveal" data-resort="yercaud">
+      <div class="card-bg" style="background-image:url('https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=800&q=80')"></div>
+      <div class="card-overlay"></div>
+      <div class="card-tl">Yercaud • Tamil Nadu</div>
+      <div class="card-body">
+        <div class="card-tag">Coffee Estate</div>
+        <h3 class="card-title">Yercaud Resort</h3>
+        <div class="card-loc"><i class="fas fa-map-marker-alt"></i> Shevaroy Hills, 1515m</div>
+        <p class="card-desc">Hidden among coffee and orange groves, Yercaud is the gentle giant of hill stations — peaceful, verdant and wonderfully uncrowded.</p>
+        <a href="resorts.html#yercaud" class="btn btn-gold btn-sm">View Details</a>
+      </div>
+    </div>
+
+    <!-- Cochin -->
+    <div class="resort-card reveal" data-resort="cochin">
+      <div class="card-bg" style="background-image:url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80')"></div>
+      <div class="card-overlay"></div>
+      <div class="card-tl">Cochin • Kerala</div>
+      <div class="card-body">
+        <div class="card-tag">Coastal Luxury</div>
+        <h3 class="card-title">Cochin Resort</h3>
+        <div class="card-loc"><i class="fas fa-map-marker-alt"></i> Kerala Backwaters</div>
+        <p class="card-desc">Where the Arabian Sea meets heritage spice trade culture — our Cochin property is a luxurious blend of colonial charm and modern comfort.</p>
+        <a href="resorts.html#cochin" class="btn btn-gold btn-sm">View Details</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FACILITIES ===== -->
+<section class="facilities-section section-pad">
+  <div class="section-header center" style="position:relative;z-index:1;">
+    <div class="section-label" style="justify-content:center;"><i class="fas fa-star"></i> Amenities</div>
+    <h2 class="section-title light">Crafted for <em>Your Comfort</em></h2>
+    <div class="gold-rule center"></div>
+    <p class="section-desc light">Every amenity at our resorts is chosen to elevate your stay into a genuine luxury experience.</p>
+  </div>
+
+  <div class="fac-grid stagger">
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-bed"></i></div>
+      <h4>Luxury Rooms</h4>
+      <p>Premium furnishings, premium linens and panoramic views.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-mountain"></i></div>
+      <h4>Mountain View</h4>
+      <p>Floor-to-ceiling windows framing nature's finest vistas.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-wifi"></i></div>
+      <h4>Free WiFi</h4>
+      <p>High-speed connectivity throughout all resort properties.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-utensils"></i></div>
+      <h4>Restaurant</h4>
+      <p>Multi-cuisine dining with locally sourced seasonal ingredients.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-fire"></i></div>
+      <h4>Campfire</h4>
+      <p>Evening bonfires under a canopy of stars in the cool hills.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-car"></i></div>
+      <h4>Free Parking</h4>
+      <p>Ample secured parking for all guests and their vehicles.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-tree"></i></div>
+      <h4>Nature View</h4>
+      <p>Lush gardens and forest trails right at your doorstep.</p>
+    </div>
+    <div class="fac-item reveal">
+      <div class="fac-icon"><i class="fas fa-spa"></i></div>
+      <h4>Spa & Wellness</h4>
+      <p>Rejuvenating therapies for body, mind and spirit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PULL QUOTE ===== -->
+<div class="quote-section">
+  <div class="quote-deco">"</div>
+  <p class="quote-text">"The mountains are calling, and we have made them<br>comfortable enough for you to stay."</p>
+  <div class="gold-rule center"></div>
+  <p class="quote-by">— Luxury Hill Resorts</p>
+</div>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="section-header center">
+    <div class="section-label" style="justify-content:center;"><i class="fas fa-concierge-bell"></i> Book Now</div>
+    <h2 class="section-title light">Ready for Your <em>Mountain Escape?</em></h2>
+    <div class="gold-rule center"></div>
+    <p class="section-desc light">Send us an enquiry on WhatsApp and our concierge team will craft the perfect stay for you — families, couples or solo travellers.</p>
+  </div>
+  <div class="cta-btns">
+    <button class="btn btn-gold" onclick="waEnquire('General Enquiry')">
+      <i class="fab fa-whatsapp"></i> WhatsApp Enquiry
+    </button>
+    <a href="contact.html" class="btn btn-outline">
+      <i class="fas fa-envelope"></i> Send a Message
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="nav-logo" style="margin-bottom:0;">
+        <div class="nav-logo-emblem"><i class="fas fa-leaf"></i></div>
+        <div class="nav-logo-text">
+          <strong>Luxury Hill Resorts</strong>
+          <span>Nature · Comfort · Luxury</span>
+        </div>
+      </div>
+      <p>Premium nature retreats across South India's finest hill stations and coastal destinations. Where every stay becomes a cherished memory.</p>
+      <div class="footer-social">
+        <a href="#" class="soc-btn"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="soc-btn"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="soc-btn"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="soc-btn"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Navigate</h5>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resorts.html">Our Resorts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Destinations</h5>
+      <ul>
+        <li><a href="resorts.html#ooty">Ooty Resort</a></li>
+        <li><a href="resorts.html#kodaikanal">Kodaikanal Resort</a></li>
+        <li><a href="resorts.html#yercaud">Yercaud Resort</a></li>
+        <li><a href="resorts.html#cochin">Cochin Resort</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <div class="ftr-ci"><i class="fas fa-phone"></i><span>+91 XXXX XXX XXX</span></div>
+      <div class="ftr-ci"><i class="fas fa-envelope"></i><span>enquiry@luxuryhillresorts.com</span></div>
+      <div class="ftr-ci"><i class="fas fa-map-marker-alt"></i><span>Ooty, Kodaikanal, Yercaud &amp; Cochin</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span class="gold">Luxury Hill Resorts</span>. All rights reserved.</p>
+    <p>Crafted with <span style="color:#C9A96E;">♥</span> for nature lovers</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="wa-float">
+  <i class="fab fa-whatsapp"></i>
+  <span>Enquire on WhatsApp</span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
